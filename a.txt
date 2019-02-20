@@ -1,0 +1,1007 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< io.gatling:gatling-maven-plugin-demo >----------------
+[INFO] Building gatling-maven-plugin-demo 3.0.3
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- gatling-maven-plugin:3.0.1:test (default-cli) @ gatling-maven-plugin-demo ---
+Simulation computerdatabase.SampleRecord started...
+
+================================================================================
+2019-01-25 15:20:34                                           5s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+
+================================================================================
+2019-01-25 15:20:39                                          10s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+
+================================================================================
+2019-01-25 15:20:44                                          15s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+
+================================================================================
+2019-01-25 15:20:49                                          20s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+
+================================================================================
+2019-01-25 15:20:54                                          25s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+
+================================================================================
+2019-01-25 15:20:59                                          30s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=7      KO=0     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:01.578 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_2' failed for user 1: bodyBytes.find.is([B@468fb760), found [B@473f9c0d
+15:21:04.167 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_19' failed for user 1: bodyBytes.find.is([B@4024f85c), found [B@1e2663bc
+
+================================================================================
+2019-01-25 15:21:04                                          35s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=2     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 (50.00%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 (50.00%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:06.527 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_20' failed for user 1: bodyBytes.find.is([B@29fa7760), found [B@55fbea90
+15:21:08.787 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_25' failed for user 1: bodyBytes.find.is([B@63ed24a9), found [B@46cda60
+
+================================================================================
+2019-01-25 15:21:09                                          40s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=4     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 (25.00%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 (25.00%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 (25.00%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 (25.00%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:11.116 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_26' failed for user 1: bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e
+15:21:13.397 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_27' failed for user 1: bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4
+
+================================================================================
+2019-01-25 15:21:14                                          45s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=6     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 (16.67%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 (16.67%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 (16.67%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 (16.67%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 (16.67%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 (16.67%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:15.701 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_28' failed for user 1: bodyBytes.find.is([B@582d2790), found [B@55e328ea
+15:21:18.006 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_29' failed for user 1: bodyBytes.find.is([B@4727984e), found [B@5c091dc0
+
+================================================================================
+2019-01-25 15:21:19                                          50s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=8     )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 (12.50%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 (12.50%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 (12.50%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 (12.50%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 (12.50%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 (12.50%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 (12.50%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 (12.50%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:20.287 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_30' failed for user 1: bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38
+15:21:22.562 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_31' failed for user 1: bodyBytes.find.is([B@55021e83), found [B@2e9c06f6
+
+================================================================================
+2019-01-25 15:21:24                                          55s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=10    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 (10.00%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 (10.00%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 (10.00%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 (10.00%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 (10.00%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 (10.00%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 (10.00%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 (10.00%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 (10.00%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 (10.00%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:24.883 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_32' failed for user 1: bodyBytes.find.is([B@61ac4d31), found [B@24dd2697
+15:21:27.159 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_33' failed for user 1: bodyBytes.find.is([B@2498d761), found [B@27ded36e
+
+================================================================================
+2019-01-25 15:21:29                                          60s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=12    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 8.33%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 8.33%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 8.33%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 8.33%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 8.33%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 8.33%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 8.33%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 8.33%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 8.33%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 8.33%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 8.33%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 8.33%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:29.498 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_34' failed for user 1: bodyBytes.find.is([B@7eda5631), found [B@415684da
+15:21:30.783 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_56' failed for user 1: bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27
+15:21:33.158 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_57' failed for user 1: bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f
+
+================================================================================
+2019-01-25 15:21:34                                          65s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=15    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 6.67%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 6.67%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 6.67%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 6.67%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 6.67%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 6.67%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 6.67%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 6.67%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 6.67%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 6.67%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 6.67%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 6.67%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 6.67%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 6.67%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 6.67%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:35.449 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_58' failed for user 1: bodyBytes.find.is([B@792b18fa), found [B@4ea06b88
+15:21:37.733 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_59' failed for user 1: bodyBytes.find.is([B@686a0721), found [B@1290d403
+
+================================================================================
+2019-01-25 15:21:39                                          70s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=17    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+> SampleRecord_58                                          (OK=0      KO=1     )
+> SampleRecord_59                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 5.88%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 5.88%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 5.88%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 5.88%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 5.88%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 5.88%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 5.88%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 5.88%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 5.88%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 5.88%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 5.88%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 5.88%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 5.88%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 5.88%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 5.88%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 5.88%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 5.88%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:40.023 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_60' failed for user 1: bodyBytes.find.is([B@416ed16), found [B@255bcd8f
+15:21:42.315 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_61' failed for user 1: bodyBytes.find.is([B@28595f63), found [B@10b2015b
+
+================================================================================
+2019-01-25 15:21:44                                          75s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=19    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+> SampleRecord_58                                          (OK=0      KO=1     )
+> SampleRecord_59                                          (OK=0      KO=1     )
+> SampleRecord_60                                          (OK=0      KO=1     )
+> SampleRecord_61                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 5.26%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 5.26%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 5.26%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 5.26%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 5.26%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 5.26%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 5.26%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 5.26%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 5.26%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 5.26%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 5.26%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 5.26%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 5.26%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 5.26%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 5.26%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 5.26%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 5.26%)
+> bodyBytes.find.is([B@416ed16), found [B@255bcd8f                    1 ( 5.26%)
+> bodyBytes.find.is([B@28595f63), found [B@10b2015b                   1 ( 5.26%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:44.620 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_62' failed for user 1: bodyBytes.find.is([B@60d8e16b), found [B@5395c852
+15:21:46.910 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_78' failed for user 1: bodyBytes.find.is([B@22075ca), found [B@60e08cf2
+15:21:49.187 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_79' failed for user 1: bodyBytes.find.is([B@587e8fb7), found [B@7f0aea84
+
+================================================================================
+2019-01-25 15:21:49                                          80s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=22    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+> SampleRecord_58                                          (OK=0      KO=1     )
+> SampleRecord_59                                          (OK=0      KO=1     )
+> SampleRecord_60                                          (OK=0      KO=1     )
+> SampleRecord_61                                          (OK=0      KO=1     )
+> SampleRecord_62                                          (OK=0      KO=1     )
+> SampleRecord_78                                          (OK=0      KO=1     )
+> SampleRecord_79                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 4.55%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 4.55%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 4.55%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 4.55%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 4.55%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 4.55%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 4.55%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 4.55%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 4.55%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 4.55%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 4.55%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 4.55%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 4.55%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 4.55%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 4.55%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 4.55%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 4.55%)
+> bodyBytes.find.is([B@416ed16), found [B@255bcd8f                    1 ( 4.55%)
+> bodyBytes.find.is([B@28595f63), found [B@10b2015b                   1 ( 4.55%)
+> bodyBytes.find.is([B@60d8e16b), found [B@5395c852                   1 ( 4.55%)
+> bodyBytes.find.is([B@22075ca), found [B@60e08cf2                    1 ( 4.55%)
+> bodyBytes.find.is([B@587e8fb7), found [B@7f0aea84                   1 ( 4.55%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:50.522 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_80' failed for user 1: bodyBytes.find.is([B@3d12a33a), found [B@3c1d0f56
+15:21:52.811 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_83' failed for user 1: bodyBytes.find.is([B@394b06fa), found [B@156420d6
+
+================================================================================
+2019-01-25 15:21:54                                          85s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=24    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+> SampleRecord_58                                          (OK=0      KO=1     )
+> SampleRecord_59                                          (OK=0      KO=1     )
+> SampleRecord_60                                          (OK=0      KO=1     )
+> SampleRecord_61                                          (OK=0      KO=1     )
+> SampleRecord_62                                          (OK=0      KO=1     )
+> SampleRecord_78                                          (OK=0      KO=1     )
+> SampleRecord_79                                          (OK=0      KO=1     )
+> SampleRecord_80                                          (OK=0      KO=1     )
+> SampleRecord_83                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 4.17%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 4.17%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 4.17%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 4.17%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 4.17%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 4.17%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 4.17%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 4.17%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 4.17%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 4.17%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 4.17%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 4.17%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 4.17%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 4.17%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 4.17%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 4.17%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 4.17%)
+> bodyBytes.find.is([B@416ed16), found [B@255bcd8f                    1 ( 4.17%)
+> bodyBytes.find.is([B@28595f63), found [B@10b2015b                   1 ( 4.17%)
+> bodyBytes.find.is([B@60d8e16b), found [B@5395c852                   1 ( 4.17%)
+> bodyBytes.find.is([B@22075ca), found [B@60e08cf2                    1 ( 4.17%)
+> bodyBytes.find.is([B@587e8fb7), found [B@7f0aea84                   1 ( 4.17%)
+> bodyBytes.find.is([B@3d12a33a), found [B@3c1d0f56                   1 ( 4.17%)
+> bodyBytes.find.is([B@394b06fa), found [B@156420d6                   1 ( 4.17%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:55.102 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_84' failed for user 1: bodyBytes.find.is([B@45dbbccc), found [B@6df8c93a
+15:21:57.409 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_85' failed for user 1: bodyBytes.find.is([B@1090f23c), found [B@710d4631
+
+================================================================================
+2019-01-25 15:21:59                                          90s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=26    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+> SampleRecord_58                                          (OK=0      KO=1     )
+> SampleRecord_59                                          (OK=0      KO=1     )
+> SampleRecord_60                                          (OK=0      KO=1     )
+> SampleRecord_61                                          (OK=0      KO=1     )
+> SampleRecord_62                                          (OK=0      KO=1     )
+> SampleRecord_78                                          (OK=0      KO=1     )
+> SampleRecord_79                                          (OK=0      KO=1     )
+> SampleRecord_80                                          (OK=0      KO=1     )
+> SampleRecord_83                                          (OK=0      KO=1     )
+> SampleRecord_84                                          (OK=0      KO=1     )
+> SampleRecord_85                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 3.85%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 3.85%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 3.85%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 3.85%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 3.85%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 3.85%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 3.85%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 3.85%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 3.85%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 3.85%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 3.85%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 3.85%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 3.85%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 3.85%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 3.85%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 3.85%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 3.85%)
+> bodyBytes.find.is([B@416ed16), found [B@255bcd8f                    1 ( 3.85%)
+> bodyBytes.find.is([B@28595f63), found [B@10b2015b                   1 ( 3.85%)
+> bodyBytes.find.is([B@60d8e16b), found [B@5395c852                   1 ( 3.85%)
+> bodyBytes.find.is([B@22075ca), found [B@60e08cf2                    1 ( 3.85%)
+> bodyBytes.find.is([B@587e8fb7), found [B@7f0aea84                   1 ( 3.85%)
+> bodyBytes.find.is([B@3d12a33a), found [B@3c1d0f56                   1 ( 3.85%)
+> bodyBytes.find.is([B@394b06fa), found [B@156420d6                   1 ( 3.85%)
+> bodyBytes.find.is([B@45dbbccc), found [B@6df8c93a                   1 ( 3.85%)
+> bodyBytes.find.is([B@1090f23c), found [B@710d4631                   1 ( 3.85%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:21:59.694 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_86' failed for user 1: bodyBytes.find.is([B@232fae6c), found [B@3b8a580d
+15:22:01.970 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_92' failed for user 1: bodyBytes.find.is([B@2f1e5cc9), found [B@388858f6
+15:22:04.262 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_93' failed for user 1: bodyBytes.find.is([B@18bfa962), found [B@46bd2317
+
+================================================================================
+2019-01-25 15:22:04                                          95s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=29    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+> SampleRecord_58                                          (OK=0      KO=1     )
+> SampleRecord_59                                          (OK=0      KO=1     )
+> SampleRecord_60                                          (OK=0      KO=1     )
+> SampleRecord_61                                          (OK=0      KO=1     )
+> SampleRecord_62                                          (OK=0      KO=1     )
+> SampleRecord_78                                          (OK=0      KO=1     )
+> SampleRecord_79                                          (OK=0      KO=1     )
+> SampleRecord_80                                          (OK=0      KO=1     )
+> SampleRecord_83                                          (OK=0      KO=1     )
+> SampleRecord_84                                          (OK=0      KO=1     )
+> SampleRecord_85                                          (OK=0      KO=1     )
+> SampleRecord_86                                          (OK=0      KO=1     )
+> SampleRecord_92                                          (OK=0      KO=1     )
+> SampleRecord_93                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 3.45%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 3.45%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 3.45%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 3.45%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 3.45%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 3.45%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 3.45%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 3.45%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 3.45%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 3.45%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 3.45%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 3.45%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 3.45%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 3.45%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 3.45%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 3.45%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 3.45%)
+> bodyBytes.find.is([B@416ed16), found [B@255bcd8f                    1 ( 3.45%)
+> bodyBytes.find.is([B@28595f63), found [B@10b2015b                   1 ( 3.45%)
+> bodyBytes.find.is([B@60d8e16b), found [B@5395c852                   1 ( 3.45%)
+> bodyBytes.find.is([B@22075ca), found [B@60e08cf2                    1 ( 3.45%)
+> bodyBytes.find.is([B@587e8fb7), found [B@7f0aea84                   1 ( 3.45%)
+> bodyBytes.find.is([B@3d12a33a), found [B@3c1d0f56                   1 ( 3.45%)
+> bodyBytes.find.is([B@394b06fa), found [B@156420d6                   1 ( 3.45%)
+> bodyBytes.find.is([B@45dbbccc), found [B@6df8c93a                   1 ( 3.45%)
+> bodyBytes.find.is([B@1090f23c), found [B@710d4631                   1 ( 3.45%)
+> bodyBytes.find.is([B@232fae6c), found [B@3b8a580d                   1 ( 3.45%)
+> bodyBytes.find.is([B@2f1e5cc9), found [B@388858f6                   1 ( 3.45%)
+> bodyBytes.find.is([B@18bfa962), found [B@46bd2317                   1 ( 3.45%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:22:06.582 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_94' failed for user 1: bodyBytes.find.is([B@3f2ffdf7), found [B@620a1d6b
+15:22:08.843 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_95' failed for user 1: bodyBytes.find.is([B@75348b51), found [B@10a5d49e
+
+================================================================================
+2019-01-25 15:22:09                                         100s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=31    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+> SampleRecord_58                                          (OK=0      KO=1     )
+> SampleRecord_59                                          (OK=0      KO=1     )
+> SampleRecord_60                                          (OK=0      KO=1     )
+> SampleRecord_61                                          (OK=0      KO=1     )
+> SampleRecord_62                                          (OK=0      KO=1     )
+> SampleRecord_78                                          (OK=0      KO=1     )
+> SampleRecord_79                                          (OK=0      KO=1     )
+> SampleRecord_80                                          (OK=0      KO=1     )
+> SampleRecord_83                                          (OK=0      KO=1     )
+> SampleRecord_84                                          (OK=0      KO=1     )
+> SampleRecord_85                                          (OK=0      KO=1     )
+> SampleRecord_86                                          (OK=0      KO=1     )
+> SampleRecord_92                                          (OK=0      KO=1     )
+> SampleRecord_93                                          (OK=0      KO=1     )
+> SampleRecord_94                                          (OK=0      KO=1     )
+> SampleRecord_95                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 3.23%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 3.23%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 3.23%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 3.23%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 3.23%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 3.23%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 3.23%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 3.23%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 3.23%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 3.23%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 3.23%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 3.23%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 3.23%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 3.23%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 3.23%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 3.23%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 3.23%)
+> bodyBytes.find.is([B@416ed16), found [B@255bcd8f                    1 ( 3.23%)
+> bodyBytes.find.is([B@28595f63), found [B@10b2015b                   1 ( 3.23%)
+> bodyBytes.find.is([B@60d8e16b), found [B@5395c852                   1 ( 3.23%)
+> bodyBytes.find.is([B@22075ca), found [B@60e08cf2                    1 ( 3.23%)
+> bodyBytes.find.is([B@587e8fb7), found [B@7f0aea84                   1 ( 3.23%)
+> bodyBytes.find.is([B@3d12a33a), found [B@3c1d0f56                   1 ( 3.23%)
+> bodyBytes.find.is([B@394b06fa), found [B@156420d6                   1 ( 3.23%)
+> bodyBytes.find.is([B@45dbbccc), found [B@6df8c93a                   1 ( 3.23%)
+> bodyBytes.find.is([B@1090f23c), found [B@710d4631                   1 ( 3.23%)
+> bodyBytes.find.is([B@232fae6c), found [B@3b8a580d                   1 ( 3.23%)
+> bodyBytes.find.is([B@2f1e5cc9), found [B@388858f6                   1 ( 3.23%)
+> bodyBytes.find.is([B@18bfa962), found [B@46bd2317                   1 ( 3.23%)
+> bodyBytes.find.is([B@3f2ffdf7), found [B@620a1d6b                   1 ( 3.23%)
+> bodyBytes.find.is([B@75348b51), found [B@10a5d49e                   1 ( 3.23%)
+
+---- SampleRecord --------------------------------------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done: 0     
+================================================================================
+
+15:22:11.150 [WARN ] i.g.h.e.r.DefaultStatsProcessor - Request 'SampleRecord_96' failed for user 1: bodyBytes.find.is([B@7e7ac97), found [B@47e731d9
+
+================================================================================
+2019-01-25 15:22:11                                         101s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=32    )
+> SampleRecord_0                                           (OK=1      KO=0     )
+> SampleRecord_0 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_0 Redirect 2                                (OK=1      KO=0     )
+> SampleRecord_1                                           (OK=1      KO=0     )
+> SampleRecord_1 Redirect 1                                (OK=1      KO=0     )
+> SampleRecord_1 Redirect 2                                (OK=1      KO=0     )
+> index.js?v=20190123-2223                                 (OK=1      KO=0     )
+> ?ts=0                                                    (OK=1      KO=0     )
+> SampleRecord_2                                           (OK=0      KO=1     )
+> SampleRecord_19                                          (OK=0      KO=1     )
+> SampleRecord_20                                          (OK=0      KO=1     )
+> SampleRecord_25                                          (OK=0      KO=1     )
+> SampleRecord_26                                          (OK=0      KO=1     )
+> SampleRecord_27                                          (OK=0      KO=1     )
+> SampleRecord_28                                          (OK=0      KO=1     )
+> SampleRecord_29                                          (OK=0      KO=1     )
+> SampleRecord_30                                          (OK=0      KO=1     )
+> SampleRecord_31                                          (OK=0      KO=1     )
+> SampleRecord_32                                          (OK=0      KO=1     )
+> SampleRecord_33                                          (OK=0      KO=1     )
+> SampleRecord_34                                          (OK=0      KO=1     )
+> SampleRecord_56                                          (OK=0      KO=1     )
+> SampleRecord_57                                          (OK=0      KO=1     )
+> SampleRecord_58                                          (OK=0      KO=1     )
+> SampleRecord_59                                          (OK=0      KO=1     )
+> SampleRecord_60                                          (OK=0      KO=1     )
+> SampleRecord_61                                          (OK=0      KO=1     )
+> SampleRecord_62                                          (OK=0      KO=1     )
+> SampleRecord_78                                          (OK=0      KO=1     )
+> SampleRecord_79                                          (OK=0      KO=1     )
+> SampleRecord_80                                          (OK=0      KO=1     )
+> SampleRecord_83                                          (OK=0      KO=1     )
+> SampleRecord_84                                          (OK=0      KO=1     )
+> SampleRecord_85                                          (OK=0      KO=1     )
+> SampleRecord_86                                          (OK=0      KO=1     )
+> SampleRecord_92                                          (OK=0      KO=1     )
+> SampleRecord_93                                          (OK=0      KO=1     )
+> SampleRecord_94                                          (OK=0      KO=1     )
+> SampleRecord_95                                          (OK=0      KO=1     )
+> SampleRecord_96                                          (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 3.13%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 3.13%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 3.13%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 3.13%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 3.13%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 3.13%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 3.13%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 3.13%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 3.13%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 3.13%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 3.13%)
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 3.13%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 3.13%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 3.13%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 3.13%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 3.13%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 3.13%)
+> bodyBytes.find.is([B@416ed16), found [B@255bcd8f                    1 ( 3.13%)
+> bodyBytes.find.is([B@28595f63), found [B@10b2015b                   1 ( 3.13%)
+> bodyBytes.find.is([B@60d8e16b), found [B@5395c852                   1 ( 3.13%)
+> bodyBytes.find.is([B@22075ca), found [B@60e08cf2                    1 ( 3.13%)
+> bodyBytes.find.is([B@587e8fb7), found [B@7f0aea84                   1 ( 3.13%)
+> bodyBytes.find.is([B@3d12a33a), found [B@3c1d0f56                   1 ( 3.13%)
+> bodyBytes.find.is([B@394b06fa), found [B@156420d6                   1 ( 3.13%)
+> bodyBytes.find.is([B@45dbbccc), found [B@6df8c93a                   1 ( 3.13%)
+> bodyBytes.find.is([B@1090f23c), found [B@710d4631                   1 ( 3.13%)
+> bodyBytes.find.is([B@232fae6c), found [B@3b8a580d                   1 ( 3.13%)
+> bodyBytes.find.is([B@2f1e5cc9), found [B@388858f6                   1 ( 3.13%)
+> bodyBytes.find.is([B@18bfa962), found [B@46bd2317                   1 ( 3.13%)
+> bodyBytes.find.is([B@3f2ffdf7), found [B@620a1d6b                   1 ( 3.13%)
+> bodyBytes.find.is([B@75348b51), found [B@10a5d49e                   1 ( 3.13%)
+> bodyBytes.find.is([B@7e7ac97), found [B@47e731d9                    1 ( 3.13%)
+
+---- SampleRecord --------------------------------------------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done: 1     
+================================================================================
+
+Simulation computerdatabase.SampleRecord completed in 100 seconds
+Parsing log file(s)...
+Parsing log file(s) done
+Generating reports...
+
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                         40 (OK=8      KO=32    )
+> min response time                                    282 (OK=295    KO=282   )
+> max response time                                   1253 (OK=1253   KO=736   )
+> mean response time                                   381 (OK=621    KO=321   )
+> std deviation                                        217 (OK=360    KO=93    )
+> response time 50th percentile                        296 (OK=524    KO=296   )
+> response time 75th percentile                        325 (OK=750    KO=299   )
+> response time 95th percentile                        757 (OK=1222   KO=470   )
+> response time 99th percentile                       1219 (OK=1247   KO=692   )
+> mean requests/sec                                    0.4 (OK=0.08   KO=0.32  )
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                             6 ( 15%)
+> 800 ms < t < 1200 ms                                   1 (  3%)
+> t > 1200 ms                                            1 (  3%)
+> failed                                                32 ( 80%)
+---- Errors --------------------------------------------------------------------
+> bodyBytes.find.is([B@2498d761), found [B@27ded36e                   1 ( 3.13%)
+> bodyBytes.find.is([B@4d0f5670), found [B@2f4eaf27                   1 ( 3.13%)
+> bodyBytes.find.is([B@7bec0b24), found [B@712eb1c4                   1 ( 3.13%)
+> bodyBytes.find.is([B@582d2790), found [B@55e328ea                   1 ( 3.13%)
+> bodyBytes.find.is([B@13f3c600), found [B@69c8ed2e                   1 ( 3.13%)
+> bodyBytes.find.is([B@28595f63), found [B@10b2015b                   1 ( 3.13%)
+> bodyBytes.find.is([B@3d12a33a), found [B@3c1d0f56                   1 ( 3.13%)
+> bodyBytes.find.is([B@394b06fa), found [B@156420d6                   1 ( 3.13%)
+> bodyBytes.find.is([B@686a0721), found [B@1290d403                   1 ( 3.13%)
+> bodyBytes.find.is([B@587e8fb7), found [B@7f0aea84                   1 ( 3.13%)
+> bodyBytes.find.is([B@468fb760), found [B@473f9c0d                   1 ( 3.13%)
+> bodyBytes.find.is([B@2f1e5cc9), found [B@388858f6                   1 ( 3.13%)
+> bodyBytes.find.is([B@1090f23c), found [B@710d4631                   1 ( 3.13%)
+> bodyBytes.find.is([B@29fa7760), found [B@55fbea90                   1 ( 3.13%)
+> bodyBytes.find.is([B@61ac4d31), found [B@24dd2697                   1 ( 3.13%)
+> bodyBytes.find.is([B@7e7ac97), found [B@47e731d9                    1 ( 3.13%)
+> bodyBytes.find.is([B@45dbbccc), found [B@6df8c93a                   1 ( 3.13%)
+> bodyBytes.find.is([B@14cdd9a1), found [B@388a7b5f                   1 ( 3.13%)
+> bodyBytes.find.is([B@3f2ffdf7), found [B@620a1d6b                   1 ( 3.13%)
+> bodyBytes.find.is([B@22075ca), found [B@60e08cf2                    1 ( 3.13%)
+> bodyBytes.find.is([B@18bfa962), found [B@46bd2317                   1 ( 3.13%)
+> bodyBytes.find.is([B@3aeffb76), found [B@bcf4c38                    1 ( 3.13%)
+> bodyBytes.find.is([B@416ed16), found [B@255bcd8f                    1 ( 3.13%)
+> bodyBytes.find.is([B@60d8e16b), found [B@5395c852                   1 ( 3.13%)
+> bodyBytes.find.is([B@4727984e), found [B@5c091dc0                   1 ( 3.13%)
+> bodyBytes.find.is([B@63ed24a9), found [B@46cda60                    1 ( 3.13%)
+> bodyBytes.find.is([B@75348b51), found [B@10a5d49e                   1 ( 3.13%)
+> bodyBytes.find.is([B@232fae6c), found [B@3b8a580d                   1 ( 3.13%)
+> bodyBytes.find.is([B@55021e83), found [B@2e9c06f6                   1 ( 3.13%)
+> bodyBytes.find.is([B@4024f85c), found [B@1e2663bc                   1 ( 3.13%)
+> bodyBytes.find.is([B@7eda5631), found [B@415684da                   1 ( 3.13%)
+> bodyBytes.find.is([B@792b18fa), found [B@4ea06b88                   1 ( 3.13%)
+================================================================================
+
+Reports generated in 1s.
+Please open the following file: F:\GitNew\gatling-maven-plugin-demo\target\gatling\samplerecord-20190125095029417\index.html
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:53 min
+[INFO] Finished at: 2019-01-25T15:22:12+05:30
+[INFO] ------------------------------------------------------------------------

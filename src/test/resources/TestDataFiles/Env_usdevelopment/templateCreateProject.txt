@@ -1,0 +1,1 @@
+{"shortName":"Project0Task","organizationId":609,"tzOffsetPlanned":330,"category":"Project","taskTemplateId":"","autoSelectTemplateFlag":false,"projectFieldMap":{"25034":"Desc","25036":"4","25038":"a","25040":"3046","25041":"02/19/2019","25042":"Yes","25056":"Project","26376":"1"}}
